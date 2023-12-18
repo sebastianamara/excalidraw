@@ -11,6 +11,73 @@ The change should be grouped under one of the below section and must contain PR 
 Please add the latest change on the top under the correct section.
 -->
 
+## Excalidraw Library
+
+**_This section lists the updates made to the excalidraw library and will not affect the integration._**
+
+### Features
+
+- Bump `socket.io-client` & collab tweaks [#7444](https://github.com/excalidraw/excalidraw/pull/7444)
+
+- Follow mode [#6848](https://github.com/excalidraw/excalidraw/pull/6848)
+
+- Move utils to utils package and make @excalidraw/utils a workspace [#7432](https://github.com/excalidraw/excalidraw/pull/7432)
+
+- Support Mermaid Class diagrams 🥳 [#7381](https://github.com/excalidraw/excalidraw/pull/7381)
+
+- Add support for more UML arrowheads [#7391](https://github.com/excalidraw/excalidraw/pull/7391)
+
+- TTD dialog UI tweaks [#7384](https://github.com/excalidraw/excalidraw/pull/7384)
+
+- TTD dialog tweaks [#7346](https://github.com/excalidraw/excalidraw/pull/7346)
+
+- Text-to-diagram [#7325](https://github.com/excalidraw/excalidraw/pull/7325)
+
+- D2c tweaks [#7336](https://github.com/excalidraw/excalidraw/pull/7336)
+
+- Wireframe-to-code [#7334](https://github.com/excalidraw/excalidraw/pull/7334)
+
+- Expose `ActionManager.registerAction` through `ExcalidrawImperativeAPI` [#6995](https://github.com/excalidraw/excalidraw/pull/6995)
+
+- Change frame resizing behavior [#7307](https://github.com/excalidraw/excalidraw/pull/7307)
+
+### Fixes
+
+- Emitted visible scene bounds not accounting for offsets [#7450](https://github.com/excalidraw/excalidraw/pull/7450)
+
+- Import `Socket` as type [#7446](https://github.com/excalidraw/excalidraw/pull/7446)
+
+- Follow-mode tweaks [#7443](https://github.com/excalidraw/excalidraw/pull/7443)
+
+- Update path of files in docs [#7428](https://github.com/excalidraw/excalidraw/pull/7428)
+
+- Env variable for text-to-diagram and use frozen lock file when install deps in excalidraw-app [#7409](https://github.com/excalidraw/excalidraw/pull/7409)
+
+- Umd build so it can be used in browser [#7349](https://github.com/excalidraw/excalidraw/pull/7349)
+
+- Disable caching bounds for arrow labels [#7343](https://github.com/excalidraw/excalidraw/pull/7343)
+
+- Bounds cached prematurely resulting in incorrectly rendered labels [#7339](https://github.com/excalidraw/excalidraw/pull/7339)
+
+- T2c settings dialog spacing for apps that use CSS resets [#7337](https://github.com/excalidraw/excalidraw/pull/7337)
+
+- Make zoomToFit fitToViewport account for sidebar [#7298](https://github.com/excalidraw/excalidraw/pull/7298)
+
+###  Refactor
+
+- Fix Typo [#7445](https://github.com/excalidraw/excalidraw/pull/7445)
+
+### Build
+
+- Decouple package deps and introduce yarn workspaces [#7415](https://github.com/excalidraw/excalidraw/pull/7415)
+
+- Move build process and excalidraw-app dependencies in its own package.json [#7021](https://github.com/excalidraw/excalidraw/pull/7021)
+
+- Allow a range of major node versions [#7306](https://github.com/excalidraw/excalidraw/pull/7306)
+
+- Use caret for specifying node version to avoid major upgrades automatically [#7297](https://github.com/excalidraw/excalidraw/pull/7297)
+
+---
 ## 0.17.0 (2023-11-14)
 
 ### Features
