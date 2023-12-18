@@ -100,6 +100,7 @@
   },
   "homepage": ".",
   "name": "excalidraw",
+  "version": "v0.0.1",
   "prettier": "@excalidraw/prettier-config",
   "private": true,
   "scripts": {
