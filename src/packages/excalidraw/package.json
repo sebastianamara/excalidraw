@@ -1,6 +1,6 @@
 {
   "name": "excalidraw_experiment",
-  "version": "v0.17.0",
+  "version": "v0.17.2",
   "main": "main.js",
   "types": "types/packages/excalidraw/index.d.ts",
   "files": [
